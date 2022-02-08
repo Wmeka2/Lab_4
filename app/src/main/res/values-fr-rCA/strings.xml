@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">CST2335</string>
+    <string name="edhint">Taper Ici</string>
+    <string name="swtext">Cest Urgent</string>
+    <string name="btntext">Ajouter</string>
+</resources>
