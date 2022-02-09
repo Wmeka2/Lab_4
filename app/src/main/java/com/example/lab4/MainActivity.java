@@ -89,17 +89,17 @@ public class MainActivity extends AppCompatActivity {
         }
 
         @Override
-        public Object getItem(int i) {
-            return items.get(i);
+        public Object getItem(int j) {
+            return items.get(j);
         }
 
         @Override
-        public long getItemId(int i) {
-            return i;
+        public long getItemId(int j) {
+            return j;
         }
 
         @Override
-        public View getView(int i, View view, ViewGroup viewGroup) {
+        public View getView(int j, View view, ViewGroup viewGroup) {
             LayoutInflater layoutInflater=LayoutInflater.from(activity);
             view=layoutInflater.inflate(R.layout.itemlist,null);
             TextView tv=view.findViewById(R.id.item);
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
                 tv.setTextColor(Color.WHITE);
             }
 
-            tv.setText(items.get(i));
+            tv.setText(items.get(j));
             return view;
         }
     }
